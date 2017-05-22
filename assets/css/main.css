@@ -3629,18 +3629,6 @@
 
 /* Main */
 
-	/*#main > header {
-		padding: 12em 0 10em 0 ;
-		background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
-		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
-		background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
-		background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
-		background-attachment: fixed;
-		background-position: center center;
-		background-repeat: no-repeat;
-		background-size: cover;
-		text-align: center;
-	}*/
    
     	#main > header {
 		padding: 12em 0 10em 0 ;
@@ -3652,6 +3640,19 @@
 		background-repeat: no-repeat;
 		text-align: center;
 	}
+@media screen and (max-width: 980px) {
+    #main > header {
+        padding: 12em 0 10em 0;
+        background-image: -moz-linear-gradient(top, rgba(132,134,179,0.5), rgba(132,134,179,0.5)), url("../../images/MyPet.PNG");
+        background-image: -webkit-linear-gradient(top, rgba(132,134,179,0.5), rgba(132,134,179,0.5)), url("../../images/MyPet.PNG");
+        background-image: -ms-linear-gradient(top, rgba(132,134,179,0.5), rgba(132,134,179,0.5)), url("../../images/MyPet.PNG");
+        background-image: linear-gradient(top, rgba(132,134,179,0.5), rgba(132,134,179,0.5)), url("../../images/MyPet.PNG");
+        background-position: center center;
+        background-repeat: no-repeat;
+        text-align: center;
+        background-size: 100%;
+    }
+}
 
 		#main > header h2 {
 			font-size: 1.75em;
@@ -3720,6 +3721,19 @@
 		background-repeat: no-repeat;
 		text-align: center;
 	}
+@media screen and (max-width: 980px) {
+    #bank > header {
+        padding: 12em 0 10em 0;
+        background-image: -moz-linear-gradient(top, rgba(132,134,179,0.5), rgba(132,134,179,0.5)), url("../../images/bankAcct.PNG");
+        background-image: -webkit-linear-gradient(top, rgba(132,134,179,0.5), rgba(132,134,179,0.5)), url("../../images/bankAcct.PNG");
+        background-image: -ms-linear-gradient(top, rgba(132,134,179,0.5), rgba(132,134,179,0.5)), url("../../images/bankAcct.PNG");
+        background-image: linear-gradient(top, rgba(132,134,179,0.5), rgba(132,134,179,0.5)), url("../../images/bankAcct.PNG");
+        background-position: center center;
+        background-repeat: no-repeat;
+        text-align: center;
+        background-size: 100%;
+    }
+}
 
 		#bank > header h2 {
 			font-size: 1.75em;
@@ -3788,6 +3802,19 @@
 		background-repeat: no-repeat;
 		text-align: center;
 	}
+              @media screen and (max-width: 980px) {
+    #tuscany > header {
+        padding: 12em 0 10em 0;
+   	background-image: -moz-linear-gradient(top, rgba(132,134,179,0.5), rgba(132,134,179,0.5)), url("../../images/tuscany.PNG");
+		background-image: -webkit-linear-gradient(top, rgba(132,134,179,0.5), rgba(132,134,179,0.5)), url("../../images/tuscany.PNG");
+		background-image: -ms-linear-gradient(top, rgba(132,134,179,0.5), rgba(132,134,179,0.5)), url("../../images/tuscany.PNG");
+		background-image: linear-gradient(top, rgba(132,134,179,0.5), rgba(132,134,179,0.5)), url("../../images/tuscany.PNG");
+        background-position: center center;
+        background-repeat: no-repeat;
+        text-align: center;
+        background-size: 100%;
+    }
+}
 
 		#tuscany > header h2 {
 			font-size: 1.75em;
@@ -3856,6 +3883,20 @@
 		background-repeat: no-repeat;
 		text-align: center;
 	}
+
+                      @media screen and (max-width: 980px) {
+    #wardrobe > header {
+        padding: 12em 0 10em 0;
+   	background-image: -moz-linear-gradient(top, rgba(132,134,179,0.5), rgba(132,134,179,0.5)), url("../../images/wardrobe.png");
+		background-image: -webkit-linear-gradient(top, rgba(132,134,179,0.5), rgba(132,134,179,0.5)), url("../../images/wardrobe.png");
+		background-image: -ms-linear-gradient(top, rgba(132,134,179,0.5), rgba(132,134,179,0.5)), url("../../images/wardrobe.png");
+		background-image: linear-gradient(top, rgba(132,134,179,0.5), rgba(132,134,179,0.5)), url("../../images/wardrobe.png");
+        background-position: center center;
+        background-repeat: no-repeat;
+        text-align: center;
+        background-size: 100%;
+    }
+}
 
 		#wardrobe > header h2 {
 			font-size: 1.75em;
@@ -4052,6 +4093,12 @@
      color: #00ffcc;
      font-size: 36px;
  }
+ 
+@media screen and (max-width: 980px) {
+    .pet h3 {
+        padding-top: 10px;
+    }
+}
 
  .bank {
     background: rgba(132, 134, 179, 0.5);
@@ -4061,6 +4108,12 @@
      color: #00ffcc;
      font-size: 36px;
  }
+
+  @media screen and (max-width: 980px) {
+    .bank h3 {
+        padding-top: 10px;
+    }
+}
 
 .villa {
      background: rgba(63, 208, 196, 0.25);
@@ -4072,6 +4125,12 @@
      font-size: 36px;
  }
 
+ @media screen and (max-width: 980px) {
+    .villa h3 {
+        padding-top: 10px;
+    }
+}
+
 .wardrobe {
          background: rgba(132, 134, 179, 0.25);
   }
@@ -4081,13 +4140,11 @@
      font-size: 36px;
  }
 
-   .mypet a {
-     color: #00ffcc;
-     font-size: 66px;
- }
-   .mypetp {
-       text-align: center;
-   }
+@media screen and (max-width: 980px) {
+    .wardrobe h3 {
+        padding-top: 10px;
+    }
+}
 
    .largeicon {
        font-size: 55px;
@@ -4099,3 +4156,11 @@
       margin-left:18px;
     }
   }
+
+       .mypet a {
+     color: #00ffcc;
+     font-size: 66px;
+ }
+   .mypetp {
+       text-align: center;
+   }
